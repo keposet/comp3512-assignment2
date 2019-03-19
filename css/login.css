@@ -1,0 +1,70 @@
+body{
+  background-color: #eaac48;
+}
+#infobox {
+  width: 500px;
+  clear: both;
+}
+#infobox input {
+  width: 40%;
+  clear: both;
+  display: table-cell;
+}
+
+#dropdown{
+  border: 2px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #1D1B1B;
+  /*width: auto;*/
+}
+
+#logo {
+  color: #EC4D37;
+}
+
+#navLinks{
+  float: right;
+  margin-top: -53px;
+  font-size: 20px;
+  /*border: 1px solid black;*/
+  padding: 5px;
+  
+}
+
+#navLinks a{
+  color: #EC4D37;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+#menuBars{
+display: none;
+}
+
+#logout-tile, #profile-tile, #favourites-tile, #portfolio-tile{
+    display: none;
+}
+
+.tile, #search{
+  background-color: #1D1B1B;
+  height: 100%;
+  
+}
+
+.tile h1, #search{
+  color: #EC4D37;
+  text-align: center;
+}
+
+.tile, #search{
+  background-color: #1D1B1B;
+  height: 100%;
+  
+}
+@media only screen and (max-width: 500px){
+form input, form label {
+  display: block;
+}
+
+}

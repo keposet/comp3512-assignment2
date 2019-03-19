@@ -1,0 +1,837 @@
+[15-Mar-2019 04:27:52 UTC] PHP Warning:  include(helper.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/services/companies.php on line 3
+[15-Mar-2019 04:27:52 UTC] PHP Stack trace:
+[15-Mar-2019 04:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 04:27:52 UTC] PHP Warning:  include(): Failed opening 'helper.inc.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/services/companies.php on line 3
+[15-Mar-2019 04:27:52 UTC] PHP Stack trace:
+[15-Mar-2019 04:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 04:27:52 UTC] PHP Fatal error:  Call to undefined function sqlResult() in /home/ubuntu/workspace/services/companies.php on line 7
+[15-Mar-2019 04:27:52 UTC] PHP Stack trace:
+[15-Mar-2019 04:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 04:48:50 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/services/companies.php on line 10
+[15-Mar-2019 04:49:27 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/services/companies.php on line 10
+[15-Mar-2019 04:50:17 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/services/companies.php on line 10
+[15-Mar-2019 04:50:28 UTC] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/ubuntu/workspace/services/companies.php on line 10
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
+[15-Mar-2019 05:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/services/companies.php:27) in /home/ubuntu/workspace/services/companies.php on line 26
+[15-Mar-2019 05:08:03 UTC] PHP Stack trace:
+[15-Mar-2019 05:08:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/services/companies.php:0
+[15-Mar-2019 05:08:03 UTC] PHP   2. header() /home/ubuntu/workspace/services/companies.php:26
