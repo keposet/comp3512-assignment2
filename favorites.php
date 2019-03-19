@@ -7,6 +7,7 @@ $name = $_GET["name"];
 // $arrayVal = 
 $favArray = array();
 array_push($favArray, array($sym, $name));
+$_SESSION["favArray"] = $favArray;
 
 ?>
 

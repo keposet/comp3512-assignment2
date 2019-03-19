@@ -2,7 +2,13 @@ let companyList = [];
 
 window.addEventListener('load', function() {
     
-    const companies = 'https://comp3512-assignment2-rdoel282.c9users.io/services/companies.php';
+    // const companies = '/services/companies.php';
+    
+    // works, bad.
+    //const companies = 'https://comp3512-assignment2-kepposet.c9users.io/comp3512-assignment2/services/companies.php';
+    // const companies = '../services/companies.php';
+     const companies = '/comp3512-assignment2/services/companies.php';
+    
     
     fetch(companies)
     .then(response => response.json())
@@ -12,7 +18,7 @@ window.addEventListener('load', function() {
     filterCompList();
     // localStorage.setItem("compData", JSON.stringify(companyList));
     
-    console.log(companyList);
+    //console.log(companyList);
 
     })
     .catch(error => console.error(error));
@@ -22,8 +28,12 @@ let ul = document.querySelector("#companyList");
 
 
 ul.addEventListener("mouseover", function(e){
+    
+    // should remove image on 
     let el = e.target.className;
     let a = e.target.id;
+    //let a = `${e.target.id}`; -- does not work
+    
     if(el == "img"){
         let x = e.clientX;
         let y = e.clientY;
@@ -36,7 +46,6 @@ ul.addEventListener("mouseover", function(e){
         div.style.top = y + "px";
         div.style.left = x + "px";
         div.style.display = "block";
-        // could think about putting function here and passing div
         out(div, a);
         
     }
@@ -44,9 +53,11 @@ ul.addEventListener("mouseover", function(e){
 
 // function for leaving the div
 function out(div, a){
-let img = document.querySelector("#" + a);    
+
+let img = document.getElementById(a);
 img.addEventListener("mouseleave", function(e){
     div.style.display = "none";
+   
     while(div.firstChild){
     div.removeChild(div.firstChild);
     }

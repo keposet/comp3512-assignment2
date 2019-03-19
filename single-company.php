@@ -9,7 +9,7 @@
             
             window.addEventListener('load', function() {
             
-            const companies = 'https://comp3512-assignment2-rdoel282.c9users.io/services/companies.php?sym='+ symbol;
+            const companies = '/comp3512-assignment2/services/companies.php?sym='+ symbol;
             // alert(companies);
             fetch(companies)
             .then(response => response.json())

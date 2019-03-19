@@ -5,6 +5,7 @@ include('../helper.inc.php');
 if(isset($_GET['sym'])){
     $sym = $_GET['sym'];
     $result = sqlResult('Select * from companies Where symbol ='.'"' .$sym.'"');
+    // $result = sqlResult('Select * from companies Where symbol = A');
 }
 else{
     $result = sqlResult("Select * from companies");
