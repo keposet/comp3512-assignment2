@@ -26,7 +26,8 @@ if(isset($_POST["Email"])&& isset($_POST["Password"])){
     //echo "dbpass: " . $dbpass;
     $remail = sqlResult($sqle);
    // echo "remail: " . $remail;
-    if ($hashpass == $password_field_from_database_table && emails also match) {
+   /*
+    if ($hashpass == $password_field_from_database_table && ) {
     // we have a match, log the user in
     }
     $sql = 'SELECT id FROM users WHERE email= ' . $_POST['Email'] . ' and password= ' . $_POST['Password'];
@@ -34,7 +35,7 @@ if(isset($_POST["Email"])&& isset($_POST["Password"])){
     
     $_SESSION["id"] = $result;
     $_SESSION["loggedIn"] = true;
-    header("Location: index.php");
+    header("Location: index.php");*/
 }
 ?>
 
