@@ -40,9 +40,6 @@ while($row = $result->fetch() ){
 
 //create user
 /*Todo
-get next id; 
-
-create statement~ gotta get that bind working. 
 redirect to -- profile? 
 change users to have an index column/make id auto index? 
 */
@@ -58,6 +55,7 @@ if($newAccount){
         'password'=>$pw
         ];
     addUser($userData);
+    header('Location: login.php');
 }
 
 

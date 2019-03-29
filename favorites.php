@@ -1,52 +1,27 @@
 <?php 
+include('__functions.inc.php');
 //displayh logo, symbol name, remove btn 
 //only in the php
 //symbol and name link to single-company
-session_start(); 
-// unset($_SESSION['fav']);
 
-function checkSet($uData, $scriptVar){
-    if(isset($uData) && sizeof($uData) > 0){
-        $scriptVar = $uData;
-    }else {
-        $scriptVar = false;
-    }
-    return $scriptVar;
-}
+// verify the things exist!!
 
-$remItem = checkSet($_GET['rem'], $remItem);
-if($remItem){
-    //find matching symbol, pop, reload. 
-}
+if(!checkSet($_SESSION['fav'])){ $_SESSION['fav']=array();}
+if(checkSet($_GET['sym'])){$sym =$_GET['sym']; } else{$sym=FALSE;}
+if(checkSet($_GET['name'])){$name =$_GET['name'];} else{$name=FALSE;}
+// need to valimadate
+// TODO
+
+//fav is an index. and an index can point to another array. 
+// soo i set a temp array to fav, add new key=>value, wipe fav, reset
 
 
-//only add these if they are set
+$fav = $_SESSION['fav'];
+$fav["$sym"] = $name;
+wipeFav();
+$_SESSION['fav'] =$fav;
 
 
-
-if(isset($_SESSION['fav']) && sizeof($_SESSION['fav']) > 0 ){
-    $favArray = $_SESSION['fav'];
-}else {
-    $_SESSION['fav'] = array();
-    $favArray = $_SESSION['fav'];    
-}
-
-$sym = checkSet($_GET["sym"], $sym);
-$name = checkSet($_GET["name"], $name);
-if ($sym && $name){
-  array_push($_SESSION['fav'], [$sym, $name]);
-  $one = $_SESSION['fav'];
-  $oneone = $one[0];
-  echo $oneone[1];
-  array_values($one);
-}
-//want to overwrite the arry every time
-// wonder if i could just do the push 
-
-
-//array_push($_SESSION['fav'], array($sym, $name));
-//$_SESSION["fav"] = $favArray;
-//$favArray = $_SESSION['fav'];
 ?>
 
 <html>
@@ -64,9 +39,10 @@ if ($sym && $name){
     <h1>Favorites</h1>
     <ul>
         <?php
-            foreach($favArray as $i => $fD){ 
-            $fD[0]=$fSym;
-            $fD[1]=$fNam;
+            foreach($fav as $sym => $name){
+                echo "$sym => $name </br>";
+            }
+            
             ?>
                 <!--logo, symbdol/name as link, remove btn, -->
                 <img src="./logos/<?=$fSym?>"></img>
@@ -76,8 +52,6 @@ if ($sym && $name){
                     <input type="submit" value="Remove"/>
                 </form>
                 
-            
-        <?php }?>
         
     </ul>
     <?php echo $favArray[0][0] ?>
