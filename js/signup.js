@@ -5,7 +5,7 @@ function errorWindow(){
 //     let errMsg = "This password already exists, please use another";
 //     parent.textContent += errMsg;
 // })
-    alert("This password already exists, please use another");
+    alert("This Email already exists, please use another");
 }
 
 

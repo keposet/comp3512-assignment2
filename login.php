@@ -8,15 +8,22 @@ if(isset($_POST['Email']) && isset($_POST['Password'])){
 
     $email = $_POST['Email'];
     $password = $_POST['Password'];
-    // o dam all of these need to be in bind. 
-    // user can put in their passowrd as ;drop table users; and we're fucked lol
-    $sql = "SELECT email, password, id FROM users WHERE email = '$email'";
-    $dbResult = sqlResult($sql);
-    $dbInfo = $dbResult -> fetch();
+    
+    //working
+    //$sql = "SELECT email, password, id FROM users WHERE email = '$email'";
+    $sql = "SELECT email, password, id FROM users WHERE email = :email";
+    $bind = array(':email' => $email);
+    
+    
+    //Working $dbResult = sqlResult($sql);
+   //not working 
+   $dbResult = sqlBindResult($sql, $bind);
+    $dbInfo = $dbResult -> fetch();// non object 
+    
     $dbFetchId = $dbInfo['id'];
     $dbFetchPass = $dbInfo['password'];
     $dbFetchEmail = $dbInfo['email'];
-    if(password_verify($password, $dbFetchPass) && $email == $dbFetchEmail) {
+    if(password_verify($password, $dbFetchPass) && $email == $dbFetchEmail) {// good catch Josh v big brain
         session_start();
         //this works 
         $_SESSION["id"] = $dbFetchId;

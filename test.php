@@ -1,30 +1,28 @@
 <?php 
-    foreach($_POST as $name => $val ){
-        echo "name $name";
-        echo "value $val";
-        
-    }
-    // lol :) 
-    //plaintext
-    $password = "mypassword";
-    //mypassword048d741e931f907110adf460816ff958
-    $userPWHash = password_hash($password, PASSWORD_BCRYPT,['cost' => 12, 'salt' => '048d741e931f907110adf460816ff958']);
-    //value from db
-    $hash = '$2a$12$F.jpatdVlOnrYWLi/lxPNO90T0auUpFnDP5JTb3aTx7z1QSu5nX42';
-    $hash = '$2a$12$o9lzPmLOFgpODyhYHUOXO.wojqkQph.fBZKO8k83hromrC0bC4TFi';
-    /*
-    +------------------------------------+--------------------------------------------------------------+----------------------------------+
-| email                              | password                                                     | salt                             |
-+------------------------------------+--------------------------------------------------------------+----------------------------------+
-| hemmens0@de.vu                     | $2a$12$F.jpatdVlOnrYWLi/lxPNO90T0auUpFnDP5JTb3aTx7z1QSu5nX42 | 048d741e931f907110adf460816ff958 |
-| gcrannage1@mit.edu                 | $2a$12$o9lzPmLOFgpODyhYHUOXO.wojqkQph.fBZKO8k83hromrC0bC4TFi | 9bce2f838034b8c8d2ba1220daef2e7e |
-    */
-    //im staring at the phpmyadmin and it sure is missing the part i highlighted
+include('helper.inc.php');
 
-    if(password_verify($password, $hash)){
-        echo "success";
-    }else {
-        echo "fail";
-    };
+$sql = "select email from users where id = :id";
+$sql = "select id from users";
+$sql = "select id from users order by id desc";
+// $result = sqlBindResult($sql, array('id'=>5));
+$result = sqlBindResult($sql, []);
+// fetch vs fetchall don't work. this it's in the db side
+// $c=0;
+// while ($rec = $result->fetch()){
+//     echo $c;
+//     $c++;
+// }
+// $rec = $result->fetchAll();
+// echo $rec;
+// echo sizeof($rec[0]);
+
+$result = $result->fetch();
+echo $result[0];
+$foo = [
+    'a' => 1
+    ];
+array_push($foo, ['b' => 2]);
+$foo['b'] =2;
+echo $foo['b'];
 
 ?>
