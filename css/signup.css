@@ -1,0 +1,28 @@
+input, button, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #1D1B1B;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: #EC4D37;
+    width: 30%;
+    margin: auto;
+}
+
+input:not(:placeholder-shown) {
+    border-color: hsl(0, 76%, 50%);
+}
+
+input:valid {
+    border-color: hsl(120, 76%, 50%);
+}

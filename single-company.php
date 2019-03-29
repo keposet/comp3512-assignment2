@@ -10,13 +10,11 @@
             window.addEventListener('load', function() {
             
             const companies = '/comp3512-assignment2/services/companies.php?sym='+ symbol;
-            // alert(companies);
             fetch(companies)
             .then(response => response.json())
             .then(function (data) {
             companyList = data;
             singleComp(companyList);
-            // localStorage.setItem("compData", JSON.stringify(companyList));
             
             console.log(companyList);
         
@@ -41,15 +39,6 @@
                 }
  
             } 
-            
-            
-            //   let addFavourite = document.querySelector("#addFavourite");
-            //   let sym = document.querySelector("#sym").getAttribute("value");
-            //     let name = document.querySelector("#name").innerHTML;
-            //     alert(name);
-            //     let a = document.createElement("a");
-            //     a.href = "favorites.php?sym=" + sym +"&name=" + name;
-            //     addFavourite.appendChild(a);
                 
             });
             </script>
@@ -62,7 +51,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
     <link rel="stylesheet" href="css/main.css">
         
-    <!--<link rel="stylesheet" href="css/lab12-test01.css">-->
     </head>
     <body>
         <?php include 'header.inc.php'; ?>
@@ -77,12 +65,7 @@
                 <img src="logos/<?php echo $symbol; ?>.svg" />
             </div>
             <p id="sym" value="<?php echo $symbol; ?>"><?php echo $symbol; ?></p>
-            <!--<p id="name" >Name: </p>-->
-            <!--<p id="sector">Sector: </p>-->
-            <!--<p id="subindustry">Sub Industry: </p>-->
-            <!--<p id="address">Address: </p>-->
-            <!--<p id="exchange">Exchange: </p>-->
-            <!--<p id="website">Website: </p>-->
+
             <form method="get" action="save.php">
                 
                 <label for="name">Name: <p class="dataInput" id="name"></p></label>

@@ -1,41 +1,31 @@
 <?php
+
 include('helper.inc.php');
-include('config.php');
+include('__functions.inc.php');
 // just a basic login session for doing the pages this will have to be connect to the database later 
-session_start();
-if(isset($_POST["Email"])&& isset($_POST["Password"])){
-    
-    // setting some session vars if password and email are correct this will
-    // need to change and conncet to database, just for setting up pages and functionality 
-    //sql for fetching usre id
-    // change this into one sql and do the $row thing
+
+if(isset($_POST['Email']) && isset($_POST['Password'])){
+
     $email = $_POST['Email'];
     $password = $_POST['Password'];
-    
-    
-  //  $sqle = 'SELECT email FROM users WHERE email = ' . '"' .  $_POST["Email"] . '"';
-    $sqle = "SELECT email FROM users WHERE email = '$email'";
-    $sqlp = "SELECT password FROM users WHERE password = '$password'";
-    
-    echo "email: " . $email;
-    
-    echo "password: " . $password;
-    $hashpass = password_hash($_POST['Password'], PASSWORD_BCRYPT, ['cost' => 12] );
-    echo "hashpass: " . $hashpass;
-    $dbpass = sqlResult($sqlp);
-    //echo "dbpass: " . $dbpass;
-    $remail = sqlResult($sqle);
-   // echo "remail: " . $remail;
-   /*
-    if ($hashpass == $password_field_from_database_table && ) {
-    // we have a match, log the user in
+    // o dam all of these need to be in bind. 
+    // user can put in their passowrd as ;drop table users; and we're fucked lol
+    $sql = "SELECT email, password, id FROM users WHERE email = '$email'";
+    $dbResult = sqlResult($sql);
+    $dbInfo = $dbResult -> fetch();
+    $dbFetchId = $dbInfo['id'];
+    $dbFetchPass = $dbInfo['password'];
+    $dbFetchEmail = $dbInfo['email'];
+    if(password_verify($password, $dbFetchPass) && $email == $dbFetchEmail) {
+        session_start();
+        //this works 
+        $_SESSION["id"] = $dbFetchId;
+        $_SESSION["loggedIn"] = true;
+        header("Location: index.php");
+        //header("Location: test.php");
+    } else {
+        header("Location: login.php");
     }
-    $sql = 'SELECT id FROM users WHERE email= ' . $_POST['Email'] . ' and password= ' . $_POST['Password'];
-    $result = sqlResult($sql);
-    
-    $_SESSION["id"] = $result;
-    $_SESSION["loggedIn"] = true;
-    header("Location: index.php");*/
 }
 ?>
 
@@ -47,20 +37,23 @@ if(isset($_POST["Email"])&& isset($_POST["Password"])){
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
         <link rel="stylesheet" href="css/login.css">
         <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" src=""></script>
     </head>
     <body>
     <?php include 'header.inc.php'; ?>
     <main class="grid-container">
-        <!--form input for logging in-->
         <form method="post" action="login.php">
             <h1>Login</h1>
             <label for="Email" >Email</label>
-            <input type="text" name="Email" Placeholder="Email"/>
+            <input type="text" name="Email" Placeholder="Email" value="hemmens0@de.vu"/>
             <label for="Password" >Password</label>
-            <input type="text" name="Password" placeholder="Password"/>
-            <button type="submit">Login</button>
+            <input type="text" name="Password" placeholder="Password" value="mypassword"/>
+            <button type="submit" id="login-button">Login</button>
         </form>
-        
+        <form action = signup.php>
+            <label for="signup">No Account?</label>
+            <input type="submit" name="signup" value="Sign up"/>
+        </form>
     </main>
     <script src="js/menu2.js"></script>
     </body>

@@ -1,13 +1,13 @@
 window.addEventListener('load', function() {
     
     // getting the different buttons
-    let editBut = document.querySelector("#edit");
-    let save = document.querySelector("#save");
-    let cancel = document.querySelector("#cancel");
-    let addFavourite = document.querySelector("#addFavourite");
-    let stock = document.querySelector("#stock");
-    let data = document.querySelectorAll(".dataInput");
-    let inputs = document.querySelectorAll(".compInput");
+         let editBut = document.getElementById("edit");
+            let save = document.getElementById("save");
+          let cancel = document.getElementById("cancel");
+    let addFavourite = document.getElementById("addFavourite");
+           let stock = document.getElementById("stock");
+         let data = document.querySelectorAll(".dataInput");
+       let inputs = document.querySelectorAll(".compInput");
     
     editBut.addEventListener("click", function(e) {
         //displaying or hidding the buttons    
@@ -49,9 +49,9 @@ window.addEventListener('load', function() {
      });
     
     addFavourite.addEventListener("click", function(e){
-    let sym = document.querySelector("#sym").getAttribute("value");
-    let name = document.querySelector("#name").innerHTML;
-    window.location = "https://comp3512-assignment2-rdoel282.c9users.io/favorites.php?sym=" + sym + "&name=" + name;
+     let sym = document.getElementById("sym").getAttribute("value");
+    let name = document.getElementById("name").innerHTML;
+    window.location = "favorites.php?sym=" + sym + "&name=" + name;
     });
     
 });

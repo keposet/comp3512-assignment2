@@ -19,5 +19,15 @@ function sqlResult($sql){
     return $result;
 }
 
+function userByEmailSQL($email){
+    return "SELECT * FROM users WHERE email = $email";
+}
+
+
+function getPasswordByEmail($email){
+    $result = sqlResult(userByEmailSQL($email));
+    return $result;
+}
+    
 
 ?>

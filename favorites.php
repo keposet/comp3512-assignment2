@@ -1,14 +1,52 @@
 <?php 
+//displayh logo, symbol name, remove btn 
+//only in the php
+//symbol and name link to single-company
 session_start(); 
+// unset($_SESSION['fav']);
 
-$sym = $_GET["sym"];
-$name = $_GET["name"];
+function checkSet($uData, $scriptVar){
+    if(isset($uData) && sizeof($uData) > 0){
+        $scriptVar = $uData;
+    }else {
+        $scriptVar = false;
+    }
+    return $scriptVar;
+}
 
-// $arrayVal = 
-$favArray = array();
-array_push($favArray, array($sym, $name));
-$_SESSION["favArray"] = $favArray;
+$remItem = checkSet($_GET['rem'], $remItem);
+if($remItem){
+    //find matching symbol, pop, reload. 
+}
 
+
+//only add these if they are set
+
+
+
+if(isset($_SESSION['fav']) && sizeof($_SESSION['fav']) > 0 ){
+    $favArray = $_SESSION['fav'];
+}else {
+    $_SESSION['fav'] = array();
+    $favArray = $_SESSION['fav'];    
+}
+
+$sym = checkSet($_GET["sym"], $sym);
+$name = checkSet($_GET["name"], $name);
+if ($sym && $name){
+  array_push($_SESSION['fav'], [$sym, $name]);
+  $one = $_SESSION['fav'];
+  $oneone = $one[0];
+  echo $oneone[1];
+  array_values($one);
+}
+//want to overwrite the arry every time
+// wonder if i could just do the push 
+
+
+//array_push($_SESSION['fav'], array($sym, $name));
+//$_SESSION["fav"] = $favArray;
+//$favArray = $_SESSION['fav'];
 ?>
 
 <html>
@@ -25,13 +63,30 @@ $_SESSION["favArray"] = $favArray;
     <?php include 'header.inc.php'; ?>
     <h1>Favorites</h1>
     <ul>
+        <?php
+            foreach($favArray as $i => $fD){ 
+            $fD[0]=$fSym;
+            $fD[1]=$fNam;
+            ?>
+                <!--logo, symbdol/name as link, remove btn, -->
+                <img src="./logos/<?=$fSym?>"></img>
+                <a href="single-company?sym=<?=$fSym?>"><?=$fSym?></a>
+                <a href="single-company?sym=<?=$fNam?>"><?=$fNam?></a>
+                <form method=get action=favorites.php?rem=<?=$fSym?>>
+                    <input type="submit" value="Remove"/>
+                </form>
+                
+            
+        <?php }?>
         
     </ul>
     <?php echo $favArray[0][0] ?>
     <?php echo $favArray[0][1] ?>
     <?php echo $favArray[1][1] ?>
     <?php echo $favArray[1][1] ?>
-    
+     <form method=get action="favorites.php?remAll=1">>
+                    <input type="submit" value="Remove All"/>
+                </form>
     <script src="js/menu2.js"></script>
 </body>
 </html>
