@@ -28,13 +28,12 @@ function sqlBindResult($sql, $params=array()){
         if(sizeof($params) > 0){
             //foreach($params as $bind => $data){echo "$bind => $data";}
             foreach($params as $bind => $data){
-                echo "$bind=> $data ";
-            $stmt->bindValue($bind,$data);
                 
+            $stmt->bindValue($bind,$data);
             }
             
             $stmt->execute();
-            $stmt->debugDumpParams();
+            //$stmt->debugDumpParams();
         }else {
             $stmt->execute();
         }
@@ -63,6 +62,11 @@ function sqlResult($sql){
     return $result;
 }
 
+
+
+/**
+ * User Functions
+*/
 function userByEmailSQL($email){
     return "SELECT * FROM users WHERE email = $email";
 }
@@ -91,5 +95,11 @@ function addUser($userData=array()){
     $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `city`, `country`, `email`, `password`, `salt`, `password_sha256`) VALUES (:id,:firstname,:lastname,:city,:country,:email,:password,' ',' ')";
     sqlBindResult($sql, $userData);
 }    
+/*End User Functions*/
+
+function getCompany($sym){
+    $sql = '';
+    
+}
 
 ?>

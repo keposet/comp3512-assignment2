@@ -1,25 +1,42 @@
 <?php 
 include('__functions.inc.php');
-//displayh logo, symbol name, remove btn 
+//display logo, symbol name, remove btn 
 //only in the php
 //symbol and name link to single-company
 
 // verify the things exist!!
+$display= FALSE;
+echo $display;
+if(checkSet($_SESSION['fav'])){
+    $display = TRUE;
+    // $fav = $_SESSION['fav'];
+}else{$_SESSION['fav'];}
 
-if(!checkSet($_SESSION['fav'])){ $_SESSION['fav']=array();}
-if(checkSet($_GET['sym'])){$sym =$_GET['sym']; } else{$sym=FALSE;}
-if(checkSet($_GET['name'])){$name =$_GET['name'];} else{$name=FALSE;}
+if(checkSet($_GET['sym']) && checkSet($_GET['name'])){
+    $sym =$_GET['sym']; 
+    $name =$_GET['name'];
+    $fav = $_SESSION['fav'];
+    $fav["$sym"] = $name;    
+    wipeFav();
+    $_SESSION['fav'] =$fav;
+} 
+else{
+    $sym=FALSE;
+    $name=FALSE;
+}
+if(checkSet($_GET['ra'])){wipeFav();}
+
 // need to valimadate
-// TODO
-
-//fav is an index. and an index can point to another array. 
-// soo i set a temp array to fav, add new key=>value, wipe fav, reset
+$coExists = TRUE;
 
 
-$fav = $_SESSION['fav'];
-$fav["$sym"] = $name;
-wipeFav();
-$_SESSION['fav'] =$fav;
+if($coExists){
+    
+}
+
+
+
+
 
 
 ?>
@@ -39,28 +56,19 @@ $_SESSION['fav'] =$fav;
     <h1>Favorites</h1>
     <ul>
         <?php
+        // if($dislpay){
+        if(sizeof($fav)> 0){
             foreach($fav as $sym => $name){
-                echo "$sym => $name </br>";
-            }
-            
+                echo "<img src=./logos/$sym.svg></img>";
+                echo "<a href=single-company.php?sym=$sym>$sym</a>";
+                echo "<a href=single-company.php?sym=$sym>$name</a>";
+                echo "<a href=favorites.php?r=$sym><button>Remove</button></a>";
+                }
+        }
             ?>
-                <!--logo, symbdol/name as link, remove btn, -->
-                <img src="./logos/<?=$fSym?>"></img>
-                <a href="single-company?sym=<?=$fSym?>"><?=$fSym?></a>
-                <a href="single-company?sym=<?=$fNam?>"><?=$fNam?></a>
-                <form method=get action=favorites.php?rem=<?=$fSym?>>
-                    <input type="submit" value="Remove"/>
-                </form>
-                
         
     </ul>
-    <?php echo $favArray[0][0] ?>
-    <?php echo $favArray[0][1] ?>
-    <?php echo $favArray[1][1] ?>
-    <?php echo $favArray[1][1] ?>
-     <form method=get action="favorites.php?remAll=1">>
-                    <input type="submit" value="Remove All"/>
-                </form>
+     <a href="favorites.php?ra=y"><button>Remove All</button></a>
     <script src="js/menu2.js"></script>
 </body>
 </html>

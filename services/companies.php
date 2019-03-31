@@ -4,7 +4,8 @@ include('../helper.inc.php');
 // if else for query string, sets result for comapnay data
 if(isset($_GET['sym'])){
     $sym = $_GET['sym'];
-    $result = sqlResult('Select * from companies Where symbol ='.'"' .$sym.'"');
+    //$result = sqlResult('Select * from companies Where symbol ='.'"' .$sym.'"');
+    $result = sqlBindResult('Select * from companies Where symbol = :sym', [':sym'=>$sym]);
     // $result = sqlResult('Select * from companies Where symbol = A');
 }
 else{

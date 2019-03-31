@@ -3,6 +3,7 @@
     include('helper.inc.php');
     $id = $_SESSION['id'];
     $sql1 = "SELECT symbol, amount FROM portfolio WHERE userId = '4'";
+    $sql1 = "SELECT symbol, amount FROM portfolio WHERE userId = $id";
     $dbResult1 = sqlResult($sql1);
     $dbInfo = $dbResult1 -> fetchAll();
     $SA=[];

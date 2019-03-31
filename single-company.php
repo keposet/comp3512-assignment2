@@ -1,4 +1,5 @@
 <?php
+include('__functions.inc.php');
     $symbol = $_GET["sym"];
 
 ?>
