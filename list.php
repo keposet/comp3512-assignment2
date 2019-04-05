@@ -11,18 +11,23 @@
     <body>
         <?php include 'header.inc.php'; ?>
         <main class="grid-container">
-            <div class="">
+            <div class="container">
+            <div id="loadParent" >
+                <img src="https://arkenea.com/blog/wp-content/uploads/2016/04/Ajax-loader.gif"></img>
+            </div>
+            <div id ="listParent" style="display:none">
             <h1>Companies</h1>
             <div id="search">
                 <!--the search bar-->
                 <p>Filter: <input id="compFilter" type="text">  <button type="button">GO</button></p>
             </div>
-            </div>
+            
             <div id="companyListing">
                 <ul id="companyList"></ul>
-                <!--use company.php to populate-->
+            </div>
             </div>
         </main>
+        </div>
         <script src="js/main.js"></script>
         <script src="js/menu2.js"></script>
     </body>

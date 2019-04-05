@@ -4,46 +4,6 @@ include('__functions.inc.php');
 
 ?>
 
-<script>
-            let companyList = [];
-            let symbol = "<?php echo $symbol;?>";
-            
-            window.addEventListener('load', function() {
-            
-            const companies = '/comp3512-assignment2/services/companies.php?sym='+ symbol;
-            fetch(companies)
-            .then(response => response.json())
-            .then(function (data) {
-            companyList = data;
-            singleComp(companyList);
-            
-            console.log(companyList);
-        
-            })
-            .catch(error => console.error(error));
-            
-            // function for populating company information
-            function singleComp(companyList){
-            let varList = ["name", "sector", "subindustry", "address", "exchange", "website"];    
-                
-                for(let i = 0; i < companyList.length; i++){
-                    for(let v = 0; v < varList.length; v++){
-                        let compName = companyList[i][varList[v]];
-                        let name = document.createTextNode(compName);
-                        let selector = "#" + varList[v];
-                        let inputSel = "#" + varList[v] + "Entry";
-                        let input = document.querySelector(inputSel);
-                        input.setAttribute("value", compName);
-                        let comp = document.querySelector(selector);
-                        comp.appendChild(name);
-                    }
-                }
- 
-            } 
-                
-            });
-            </script>
-
 <html>
     <head>
     <meta charset="utf-8"/>  
@@ -51,11 +11,14 @@ include('__functions.inc.php');
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    
         
     </head>
     <body>
         <?php include 'header.inc.php'; ?>
         <main class="grid-container">
+            <div class="container3">
             <h1>Company</h1>
             <div id="saveMsg" >
                 <?php if(isset($_GET["edit"])) { ?>
@@ -65,10 +28,12 @@ include('__functions.inc.php');
             <div id="companySymbol">
                 <img src="logos/<?php echo $symbol; ?>.svg" />
             </div>
-            <p id="sym" value="<?php echo $symbol; ?>"><?php echo $symbol; ?></p>
+            <!--p tag for symbol moved into for because symbol is needed for database call -->
 
             <form method="get" action="save.php">
-                
+                <label for="symbol">Symbol:<p id="sym" value="<?php echo $symbol; ?>"><?php echo $symbol; ?></p></label>
+                <input readonly class="compInput" name="symbol" id="symbolEntry" value=<?=$symbol?> >
+                <br>
                 <label for="name">Name: <p class="dataInput" id="name"></p></label>
                 <input class="compInput" id="nameEntry" type="text" name="name" placeholder="">
                 <br>
@@ -102,9 +67,14 @@ include('__functions.inc.php');
                 <button id="cancel" type="button">Cancel</button>
             </form>
         </main>
+
         <script src="js/menu2.js"></script>
         <script src="js/single.js"></script>
+        <script type='text/javascript' source='js/single.js'>
+     let p = "<?php echo $symbol?>";
+     
+     this.loadCompanyData(`${p}`);</script>
             <!--java script for getting the single company info-->
-            
+    </div>  
     </body>
 </html>

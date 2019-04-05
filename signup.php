@@ -1,42 +1,49 @@
 <?php
+session_start(); 
 /* TODO
 create user in DB
 */
 include('helper.inc.php');
 include('__functions.inc.php');
 
-session_start(); 
 //i think we're already using email for login, might run into problems where the vars collide
 $Fname = '';
 $Lname = '';
 $email = '';
 $city = '';
 $country = '';
-$email = '';
 
 $newAccount =TRUE;
-   if(checkSet($_POST['FName'])){$Fname = $_POST['FName'];    }else{ $newAccount=FALSE;}
-   if(checkSet($_POST['LName'])){$Lname = $_POST['LName'];    }else{ $newAccount=FALSE;}
-   if(checkSet($_POST['Email'])){$email = $_POST['Email'];    }else{ $newAccount=FALSE;}
+    if(checkSet($_POST['FName'])){$Fname = $_POST['FName'];    }else{ $newAccount=FALSE;}
+    if(checkSet($_POST['LName'])){$Lname = $_POST['LName'];    }else{ $newAccount=FALSE;}
+    if(checkSet($_POST['Email'])){
+        $email = $_POST['Email']; 
+        
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
+            echo "<script type='text/javascript'>alert('this email does not meet the format');</script>";
+            $newAccount = FALSE;
+        }
+        else{
+        $dupEmail = FALSE;
+        $sqlEmails = "Select email from users";
+        $result =sqlResult($sqlEmails);
+        while($row = $result->fetch()){
+            if($email == $row[0]){
+                $dupEmail = TRUE;
+                $newAccount = FALSE;
+            }
+        }
+        if ($dupEmail = TRUE) {
+            echo "<script type='text/javascript'>alert('this email is already in the database');</script>";
+        }
+    
+    }
+    }
     if(checkSet($_POST['City'])){$city = $_POST['City'];      }else{ $newAccount=FALSE;}
- if(checkSet($_POST['Country'])){$country = $_POST['Country'];}else{ $newAccount=FALSE;}
-  if(checkSet($_POST['Pword'])){$pw = $_POST['Pword'];        }else{ $newAccount=FALSE;}
-
-
-// duplicate email verification
-$dupeEmailF = FALSE;
-$sqlEmails = "Select email from users";
-$result =sqlResult($sqlEmails);
-$emArray = array();
-while($row = $result->fetch() ){
-    //echo $row[0];
-  if($email == $row[0]){
-   // display error.
-   $dupeEmailF = TRUE;
-  }
-}
-
-// end dupe email verif. 
+    if(checkSet($_POST['Country'])){$country = $_POST['Country'];   }else{ $newAccount=FALSE;}
+    if(checkSet($_POST['Pword'])){$pw = $_POST['Pword'];        }else{ $newAccount=FALSE;}
+    if(checkSet($_POST['ConPow'])){$conP = $_POST['ConPow'];        }else{ $newAccount=FALSE;}
+    if($pw != $conP){$newAccount =FALSE;}
 
 //create user
 /*Todo
@@ -55,7 +62,8 @@ if($newAccount){
         'password'=>$pw
         ];
     addUser($userData);
-    header('Location: login.php');
+    // echo ($newAccount);
+    header('Location: login.php?newAcc='. $newAccount);
 }
 
 
@@ -71,6 +79,7 @@ if($newAccount){
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
         <link rel="stylesheet" href="css/signup.css">
         <link rel="stylesheet" href="css/main.css">
+        
         <script src="js/menu2.js"></script>
         <script src="js/signup.js"></script>
         
@@ -83,19 +92,19 @@ if($newAccount){
         <form name=signup action="signup.php" method="post" id="signup-form">
             <h1 id ="formHeader">Sign up</h1>
             <label for="FName">First Name</label>
-            <input type="text" name="FName" Placeholder="First Name" pattern="\S+.*" required value="<?=$Fname?>"> 
+            <input class="signup" type="text" name="FName" Placeholder="First Name" pattern="\S+.*" required value="<?=$Fname?>"> 
             <label for="LName">Last Name</label>
-            <input type="text" name="LName" Placeholder="Last Name" required value="<?=$Lname?>">
+            <input class="signup" type="text" name="LName" Placeholder="Last Name" required value="<?=$Lname?>">
             <label for="City">City</label>
-            <input type="text" name="City" Placeholder="City" required value="<?=$city?>">
+            <input class="signup" type="text" name="City" Placeholder="City" required value="<?=$city?>">
             <label for="Country">Country</label>
-            <input type="text" name="Country" Placeholder="Country" required value="<?=$country?>">
+            <input class="signup" type="text" name="Country" Placeholder="Country" required value="<?=$country?>">
             <label for="Email">Email</label>
-            <input type="text" name="Email" Placeholder="Email" required >
+            <input class="signup" type="text" name="Email" Placeholder="Email" required >
             <label for="Pword">Password</label>
-            <input type="password" id="Pword" name="Pword" Placeholder="Password" minlength="6" required value="<?=$pw?>">
+            <input class="signup" type="password" id="Pword" name="Pword" Placeholder="Password" minlength="6" required value="<?=$pw?>">
             <label for="ConPow">Confirm Password</label>
-            <input type="password" id="ConPow" name="ConPow" Placeholder="Confirm Password" minlength="6" required value="<?=$pw?>">
+            <input class="signup" type="password" id="ConPow" name="ConPow" Placeholder="Confirm Password" minlength="6" required value="<?=$pw?>">
             <button type="button" id="showPass">Show password</button>
             <button type="submit" id="signup" value="Submit">Sign Up</button>
             <!--validate on click-->

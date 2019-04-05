@@ -10,4 +10,5 @@ function checkSet($uData){
 function wipeFav(){
     unset($_SESSION['fav']);
 }
+
 ?>

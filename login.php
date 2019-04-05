@@ -14,10 +14,8 @@ if(isset($_POST['Email']) && isset($_POST['Password'])){
     $sql = "SELECT email, password, id FROM users WHERE email = :email";
     $bind = array(':email' => $email);
     
-    
-    //Working $dbResult = sqlResult($sql);
-   //not working 
-   $dbResult = sqlBindResult($sql, $bind);
+
+    $dbResult = sqlBindResult($sql, $bind);
     $dbInfo = $dbResult -> fetch();// non object 
     
     $dbFetchId = $dbInfo['id'];
@@ -42,7 +40,7 @@ if(isset($_POST['Email']) && isset($_POST['Password'])){
         <title>Login</title>  
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
-        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/signup.css">
         <link rel="stylesheet" href="css/main.css">
         <script type="text/javascript" src=""></script>
     </head>

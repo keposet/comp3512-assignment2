@@ -1,5 +1,41 @@
-img {
+.pimg {
   width: auto;
-  height: 18px;
+  height: 20px;
   padding: 5px;
 }
+#portfolioTable{
+    text-align: left;
+    width:100%;
+}
+#portfolioTable tr td {
+  padding-top:1.5%;
+}
+
+.container3, h2{
+    background-color: #27384B;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    width: 98.5%;
+    margin: auto;
+}
+
+h2 {
+  text-align:center;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  body, .grid-container, #portfolioTable{
+    font-size:10px;
+  }
+  
+  .container3, h2{
+    width:98.5%;
+  }
+  
+}
+

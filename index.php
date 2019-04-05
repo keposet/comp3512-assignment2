@@ -12,30 +12,30 @@
 <body>
 <?php include 'header.inc.php'; ?>
 <main class="grid-container">
-    <div class="tile">
+    <div class="container">
     <h1>Stock Browser</h1>    
         <div id="home">
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="about.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div id="cardContent">
                     <button><a href="about.php">About</a></button>
                 </div>
             </div>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="list.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
                     <button><a href="list.php">Companies</a></button>
                 </div>
             </div>
             <?php if(!isset($_SESSION["id"])){ ?>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="login.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
                     <button><a href="login.php">Log In</a></button>
                 </div>
             </div>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="signup.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
                     <button><a href="signup.php">Sign Up</a></button>
                 </div>
@@ -43,25 +43,25 @@
             <?php } else { ?>           
                         
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="favorites.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
-                    <button><a href="favourites.php">Favourites</a></button>
+                    <button><a href="favourites.php">Favorites</a></button>
                 </div>
             </div>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="portfolio.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"><a>
                 <div class="cardContent">
                     <button><a href="portfolio.php">Portfolio</a></button>
                 </div>
             </div>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="profile.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
                     <button><a href="profile.php">Profile</a></button>
                 </div>
             </div>
             <div class="card">
-                <img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about">
+                <a href="logout.php"><img src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image" alt="about"></a>
                 <div class="cardContent">
                     <button><a href="logout.php">Log Out</a></button>
                 </div>

@@ -1,44 +1,33 @@
 <?php
-    session_start();
-    include('helper.inc.php');
+session_start();
+include('helper.inc.php');
+include('__functions.inc.php');
+    $_SESSION['portfolio'] = [];
     $id = $_SESSION['id'];
-    $sql1 = "SELECT symbol, amount FROM portfolio WHERE userId = '4'";
-    $sql1 = "SELECT symbol, amount FROM portfolio WHERE userId = $id";
-    $dbResult1 = sqlResult($sql1);
+    $port = $_SESSION['portfolio'];
+    $sql1 = "SELECT symbol, amount FROM portfolio WHERE userId = :id";
+    $bind = array(':id' => $id);
+    $dbResult1 = sqlBindResult($sql1, $bind);
     $dbInfo = $dbResult1 -> fetchAll();
-    $SA=[];
-    foreach($dbInfo as $i){
-        array_push($SA, $i['symbol']);
+    if(!empty($dbInfo)){
+        $SA=[];
+        //creation of string of multiple parameters to pass onto file_get_contents
+        foreach($dbInfo as $i){
+            array_push($SA, $i['symbol']);
+        }
+        $str ="";
+        for($i=0;$i<sizeof($SA);$i++){
+            if ($i==0){
+                $str .= $SA[$i];
+            }else{
+                $str .= "," . $SA[$i];
+            } 
+        }
+        //turning information into json
+        $website = "https://api.iextrading.com/1.0/stock/market/batch?symbols=$str&types=price";
+        $file = file_get_contents($website);
+        $fileArray = json_decode($file, true);
     }
-    $str ="";
-    for($i=0;$i<sizeof($SA);$i++){
-        if ($i==0){
-            $str .= $SA[$i];
-        }else{
-            $str .= "," . $SA[$i];
-        } 
-    }
-    echo $str;
-    $website = "https://api.iextrading.com/1.0/stock/market/batch?symbols=$str&types=price";
-    $file = file_get_contents($website);
-    $fileArray = json_decode($file, true);
-    echo $fileArray['C']['price'];
-    $pValue = 0;
-    /*for($i = 0; $i < count($dbFetchSym); $i++){
-    $sql2 = "SELECT name FROM countries WHERE symbol ='" . $dbFetchSym[i] . "'";
-    $dbResult2 = sqlResult($sql2);
-    $dbInfo = $dbResult2 -> fetch();
-    echo "<tr>";
-    echo "<td><img src='logos/" . $dbFetchSym[$i] . ".svg'></img></td>";
-    echo "<td>" . $dbFetchSym[$i] . "</td>";
-    echo "<td>" . $dbInfo[0] . "</td>";
-    echo "<td>" . $dbFetchAmt[$i] . "</td>";
-    echo "<td id='cp" . $i . "'>""</td>";
-    
-    }*/
-    
-    /*$file = file_get_contents($website);
-    header('Content-type: application/json');*/
 ?>
 <html>
     <head>
@@ -48,11 +37,17 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
         <link rel="stylesheet" href="css/portfolio.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/portfolio.js"></script>
     </head>
     <body>
-    <?php include 'header.inc.php'; ?>
+    <?php include 'header.inc.php'; 
+    if(empty($dbInfo)){
+        echo "<span id='np'><h2>You currently have an empty portfolio</h2></span>";
+    } else {?>
     <main class="grid-container">
-        <table>
+        <div class="container3">
+        <h1>Portfolio</h1>
+        <table id="portfolioTable">
             <tr>
                 <th>Logo</th>
                 <th>Symbol</th>
@@ -61,25 +56,38 @@
                 <th>Close Price</th>
                 <th>Total Value</th>
             </tr>
+            <!--loops through the returned data and creates the table with it-->
             <?php foreach($dbInfo as $i){ 
-            $sql2 = "SELECT name FROM companies WHERE symbol = '" . $i['symbol'] . "'";
-            $dbResult2 = sqlResult($sql2);
-            $dbInfo = $dbResult2 -> fetch(); 
-            $pValue += $i['amount']*$fileArray[$i['symbol']]['price']
+            $sql2 = "SELECT name FROM companies WHERE symbol = :" . $i['symbol'];
+            $bind = array(':'.$i['symbol'] => $i['symbol']);
+            $dbResult2 = sqlBindResult($sql2, $bind);
+            $dbInfo2 = $dbResult2 -> fetch();
+            $amt = $i['amount'];
+            $sym = $i['symbol'];
+            $total = $amt*$fileArray[$sym]['price'];
+            $cp = $fileArray[$sym]['price']*1;
+            $pValue += $total;
             ?>
+            <?php if(array_key_exists($i['symbol'], $_SESSION['portfolio'])) { ?>
+            <script> update(<?=$amt?>,<?=$total?>, "<?=$sym?>"); </script>
+            <?php } else { ?>
             <tr>
-                <td><img src="logos/<?=$i['symbol']?>.svg"></img></td>
-                <td><?=$i['symbol']?></td>
-                <td><?=$dbInfo[0] ?></td>
-                <td id="amt<?=$i ?>"><?=$i['amount'] ?></td>
-                <!--gonna fill innerhtml of line 57, 58, and 60 using JS-->
-                <td class="cp" id="cp<?=$i['symbol']?>"><?='$' . number_format($fileArray[$i['symbol']]['price'],2,".","") ?></td>
-                <td class="tv"id="tv<?=$i['symbol']?>"><?='$' . number_format($i['amount']*$fileArray[$i['symbol']]['price'],2,".",",") ?></td>
+                <td><a href="single-company.php?sym=<?=$sym?>"><img src="logos/<?=$sym?>.svg" class="pimg"></img></a></td>
+                <td class="symbol"><a href="single-company.php?sym=<?=$sym?>"><?=$sym?></a></td>
+                <td><?=$dbInfo2['name']?></td>
+                <td id="amt<?=$sym?>"><?=$amt?></td>
+                <td id="cp<?=$sym?>">$<?=number_format($cp,2,".",",") ?></td>
+                <td class="tv" id="tv<?=$sym?>"><?=$total ?></td>
             </tr>
-            <?php } ?>
+            <?php
+            $company = [];
+            $port[$sym] = $company;
+            $_SESSION['portfolio'] = $port;
+            ?>
+            <?php } }}?>
         </table>
-        <span id="tpv">Total Portfolio Value:<?php echo '$' . number_format($pValue,2,".",",")?> </span>
+        <span id="tpv"></span>
+    </div>
     </main>
-    <script type="text/javascript" src="css/portfolio.js"></script>
     </body>
 </html>

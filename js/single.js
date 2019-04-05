@@ -1,3 +1,44 @@
+function loadCompanyData(qsSymbol){
+             let companyList = [];
+            let symbol = qsSymbol;
+            
+            window.addEventListener('load', function() {
+            const companies = `./services/companies.php?sym=${symbol}`;
+            
+            
+            fetch(companies)
+            .then(response => response.json())
+            .then(function (data) {
+            companyList = data;
+            singleComp(companyList);
+            
+            console.log(companyList);
+        
+            })
+            .catch(error => console.error(error));
+            
+            // function for populating company information
+            function singleComp(companyList){
+            let varList = ["name", "sector", "subindustry", "address", "exchange", "website"];    
+                
+                for(let i = 0; i < companyList.length; i++){
+                    for(let v = 0; v < varList.length; v++){
+                        let compName = companyList[i][varList[v]];
+                        let name = document.createTextNode(compName);
+                        let selector = "#" + varList[v];
+                        let inputSel = "#" + varList[v] + "Entry";
+                        let input = document.querySelector(inputSel);
+                        input.setAttribute("value", compName);
+                        let comp = document.querySelector(selector);
+                        comp.appendChild(name);
+                    }
+                }
+ 
+            } 
+                
+            });
+}
+
 window.addEventListener('load', function() {
     
     // getting the different buttons

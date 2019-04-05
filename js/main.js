@@ -1,3 +1,4 @@
+
 let companyList = [];
 
 window.addEventListener('load', function() {
@@ -19,6 +20,7 @@ window.addEventListener('load', function() {
     // localStorage.setItem("compData", JSON.stringify(companyList));
     
     //console.log(companyList);
+    hideLoadScreen();
 
     })
     .catch(error => console.error(error));
@@ -133,3 +135,10 @@ function clear(element){
 }
     
 });
+
+function hideLoadScreen(){
+    let loadP = document.getElementById('loadParent');
+    let listP = document.getElementById('listParent');
+    loadP.setAttribute('style', 'display:none');
+    listP.removeAttribute('style');
+}

@@ -8,21 +8,36 @@ input, button, select{
     box-sizing: border-box;
 }
 
-form {
-    background-color: #1D1B1B;
+form, #container2{
+    background-color: #27384B;
     border: 2px solid black;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    color: #EC4D37;
+    padding-top: 10px;
     width: 30%;
     margin: auto;
 }
 
-input:not(:placeholder-shown) {
+#container2 span{
+    display:block;
+    margin:auto;
+    text-align:center;
+    padding:15px;
+}
+
+.signup:not {
     border-color: hsl(0, 76%, 50%);
 }
 
-input:valid {
+.signup:valid {
     border-color: hsl(120, 76%, 50%);
+}
+
+@media (max-width:500px) {
+    #container2 span{
+    display:block;
+    text-align:center;
+    padding:15px;
+    }
 }
