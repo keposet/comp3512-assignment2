@@ -4,6 +4,7 @@
 --background: #456488;
 --text: #A3A4A5;
 --link: #9ECE55;
+--button:#569E99;
 }
 
 
@@ -11,6 +12,8 @@ body{
   background-color: var(--background);
   font-family: 'Open Sans', sans-serif;
   color:var(--text);  
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .text{
@@ -22,9 +25,13 @@ a{
 }
 
 .container {
-  background-color: #27384B;
+  background-color: var(--accent);
     border: 2px solid black;
     margin: auto;
+    display: grid;
+    width: fit-content;
+      height: 100%;
+      
 }
     
 #dropdown{
@@ -32,14 +39,9 @@ a{
   padding-left: 10px;
   padding-right: 10px;
   background-color: var(--accent);
+  padding-bottom:20px;
   /*width: auto;*/
 }
-
-/*ul {*/
-/*  list-style-type: none;*/
-/*  float: right;*/
-/*  margin-top: -45px;*/
-/*}*/
 
 #companyList img{
   width: auto;
@@ -64,10 +66,6 @@ display: none;
     display: none;
 }
 
-.container{
-  height: 100%;
-  
-}
 
 .container h1, #search{
   color: var(--text);
@@ -79,15 +77,31 @@ display: none;
 }
 
 
-#home a{
-  color: var(--text);
-  text-decoration: none;
+.card a{
+  color: var(--link);
+}
+
+.card button{
+  background-color:var(--accent);
+  border-color:var(--accent);
+  border-style:solid;
+  color:var(--link);
+padding-bottom:2em;
+  font-size:24pt;
+}
+
+.stockImg{
+  height: 25vw;
+  width:25vw;
+  object-fit: contain;
 }
 
 .card{
   padding: 10px;
-  width: auto;
-  float: left;
+  height:30vw;
+  display: inline-grid;
+  padding-left: 3em;
+
 }
 
 div .hidden {
@@ -140,9 +154,16 @@ div .hidden {
 header {
       border: 2px solid black;
 }
+.navlinks a:hover{
+  color: var(--link);
+}
 
 #stockHeadings{
   color: var(--link);  
+}
+
+#companyList span {
+    font-size: 16pt;
 }
 
 @media screen and (min-width: 501px) {
@@ -164,7 +185,7 @@ header {
 }
 
 #dropdown-content{
-  height: 10px;
+  height: 0px;
 }
 
 
@@ -193,9 +214,10 @@ header {
   color: var(--text);
 }
 
-.card img{
-  width: 150px;
-  height: auto;
+.stockImg{
+  width:33vw;
+  height:33vh;
+  object-fit: contain;
 }
 
 }

@@ -1,12 +1,3 @@
-/*let nums = [];
-window.addEventListener('load', function() {
-    fetch("https://randomuser.me/api/")
-    .then(response => response.json())
-    .then(function (data) {
-        
-    })
-    .catch(error => console.error(error));
-});*/
 function update(amt, total, sym){
     let x = document.querySelector("#amt" + sym);
     let y = document.querySelector("#cp" + sym);

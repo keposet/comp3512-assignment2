@@ -42,7 +42,6 @@ if(isset($_POST['Email']) && isset($_POST['Password'])){
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
         <link rel="stylesheet" href="css/signup.css">
         <link rel="stylesheet" href="css/main.css">
-        <script type="text/javascript" src=""></script>
     </head>
     <body>
     <?php include 'header.inc.php'; ?>
@@ -50,9 +49,9 @@ if(isset($_POST['Email']) && isset($_POST['Password'])){
         <form method="post" action="login.php">
             <h1>Login</h1>
             <label for="Email" >Email</label>
-            <input type="text" name="Email" Placeholder="Email" value="hemmens0@de.vu"/>
+            <input type="text" name="Email" Placeholder="Email"/>
             <label for="Password" >Password</label>
-            <input type="text" name="Password" placeholder="Password" value="mypassword"/>
+            <input type="password" name="Password" placeholder="Password"/>
             <button type="submit" id="login-button">Login</button>
         </form>
         <form action = signup.php>

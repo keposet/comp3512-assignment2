@@ -25,24 +25,10 @@ window.addEventListener('load', function() {
 
 // function setup month stock dat
 function setupMonthStockData(array){
-let table = document.querySelector("#tableHeading");
-let th;
-let tr = document.createElement("tr");
-tr.setAttribute("id", "stockHeadings");
 
-for (let c = 0; c < stockInfo.length; c++){
-th = document.createElement("th");
-th.setAttribute("id", stockInfo[c] + "Heading");
-th.setAttribute("class", stockInfo[c]);
-th.appendChild(document.createTextNode(stockInfo[c]));
-tr.appendChild(th);
-    
-}
-
-table.appendChild(tr);
+let table = document.getElementById("tableHeading");
 
     for(let i = 0; i < array.length; i++){
-        // let table = document.querySelector("#tableHeading");
         let tr = document.createElement("tr");
         for (let c = 0; c < stockInfo.length; c++){
             let td = document.createElement("td");
@@ -50,7 +36,10 @@ table.appendChild(tr);
             let num = array[i][stockInfo[c]];
             // formatting for 2 decimal places 
             if(stockInfo[c] != "date" && stockInfo[c] != "volume"){
-                num = array[i][stockInfo[c]].toFixed(2);
+                num = num.toFixed(2);
+            }
+            if(stockInfo[c] == "volume"){
+                num = num.toLocaleString();
             }
             
             let input = document.createTextNode(num);

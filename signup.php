@@ -6,7 +6,7 @@ create user in DB
 include('helper.inc.php');
 include('__functions.inc.php');
 
-//i think we're already using email for login, might run into problems where the vars collide
+
 $Fname = '';
 $Lname = '';
 $email = '';

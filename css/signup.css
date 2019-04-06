@@ -34,10 +34,11 @@ form, #container2{
     border-color: hsl(120, 76%, 50%);
 }
 
-@media (max-width:500px) {
+@media screen and (max-width: 530px) {
     #container2 span{
     display:block;
     text-align:center;
     padding:15px;
+    font-size:12px;
     }
 }

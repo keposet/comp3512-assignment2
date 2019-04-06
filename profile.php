@@ -15,7 +15,6 @@ $data = $rawdata -> fetch();
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800" rel="stylesheet">   
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/signup.css">
-        
     </head>
     <body>
     <?php include 'header.inc.php'; ?>
@@ -29,4 +28,6 @@ $data = $rawdata -> fetch();
             <span>Country: <?php echo $data['country'] ?> </span>
             </div>
         </main>
+        <script src="js/menu2.js"></script>
     </body>
+</html>

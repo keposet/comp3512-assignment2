@@ -39,10 +39,6 @@ else{
     $name=FALSE;
 }
 
-
-
-// need to valimadate
-
 ?>
 
 <html>

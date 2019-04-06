@@ -25,8 +25,28 @@
         <a href ="https://github.com/keposet" >Jason's Github link</a>
         <br>
         <br>
-        <a href ="https://github.com/keposet/comp3512-assignment2" >The Assignment's Github</a>
+        <a href ="https://github.com/keposet/comp3512-assignment2" >Our Github Repo</a>
         <br>
+        <br>
+        <a href ="https://github.com/mru-comp3512-archive/w2019-assign2.git" >Assignment Source Repo</a>
+        <br>
+        
+        <br>
+        <p>References</p>
+        <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString"> Comma Formatted Numbers</a>
+        <br>
+        <br>
+        <a href = "https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript"> Another Way to Format Numbers</a>
+        <br>
+        <br>
+        <a href = "https://www.php.net/manual/en/function.array-key-exists.php">Checking if a key or index exists in an array</a>
+        <br>
+        <br>
+        <a href = "https://www.php.net/manual/en/function.array-push.php">Pushing into an array in php</a>
+        <br>
+        <br>
+        <a href = "https://www.w3schools.com/js/js_validation.asp">Form validation using Javascript</a>
+        <!--filter_var, -->
     </div>
 </main>
 <script src="js/menu2.js"></script>

@@ -89,5 +89,6 @@ include('__functions.inc.php');
         <span id="tpv"></span>
     </div>
     </main>
+    <script src="js/menu2.js"></script>
     </body>
 </html>

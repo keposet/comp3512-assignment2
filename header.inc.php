@@ -2,7 +2,7 @@
 
 <header>
     <div id="dropdown" >
-        <h1 id="logo" ><i class="fas fa-chart-line"></i> logo</h1>
+        <h1 id="logo" ><i class="fas fa-chart-line"></i> Stock Browser</h1>
         <div id="dropdown-content">
             <a id="menuBars" ><i class="fas fa-bars"></i></a>
             <div class="navLinks">
