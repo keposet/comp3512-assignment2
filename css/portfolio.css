@@ -30,12 +30,13 @@ h2 {
 
 @media screen and (max-width: 530px) {
 
-  body, .grid-container, #portfolioTable{
-    font-size:10px;
+  .grid-container, #portfolioTable{
+    font-size:8px;
   }
   
   .container3, h2{
-    width:96%;
+    width:90%;
+    padding-left: 27px;
   }
   
 }

@@ -12,6 +12,11 @@
 <main class="grid-container">
     <div class="about">
         <h1>About</h1>
+        <p>COMP 3512</p>
+        <p>Mount Royal University</p>
+        <p>Winter 2019</p>
+        <p><!--technology used--></p>
+        <p>Group Members:</p>
         <p>Ryan Doel</p>
         <a href="https://github.com/badzzz" >Ryan's Github link</a>
         <br>
@@ -46,6 +51,17 @@
         <br>
         <br>
         <a href = "https://www.w3schools.com/js/js_validation.asp">Form validation using Javascript</a>
+        <br>
+        <br>
+        <a href = "https://unsplash.com/">Stock photos from Unsplash.com Artist credits on alt tags</a>
+        
+        <br>
+        <br>
+        <p> This project is hosted in AWS on an EC2 instance. <br>
+            Nginx, and MySQL are the system technologies. <br>
+            CSS, PHP, HTML and Javascript are the languages used.
+        </p>
+        
         <!--filter_var, -->
     </div>
 </main>

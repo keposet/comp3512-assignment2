@@ -8,3 +8,9 @@
     width: 30%;
     margin: auto;
 }
+
+@media only screen and (max-width: 530px) {
+    .about{
+        width: 93%;
+    }
+}
